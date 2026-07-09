@@ -1,80 +1,80 @@
-# [Guide] Comment échapper à Chat Control et à la surveillance de vos messages
+# [Guide] How to escape Chat Control and the surveillance of your messages
 
-**Le guide complet et gratuit est ici 👉 https://exitchatcontrol.org. Partagez-le autour de vous, et surtout, faites migrer vos proches : la vie privée est un combat collectif.**
+**The free complete guide is here 👉 https://exitchatcontrol.org. Share it widely, and above all, help your close ones migrate: privacy is a collective fight.**
 
-Le 9 juillet 2026, le Parlement européen a laissé passer Chat Control. Concrètement, le scan de nos messages privés est désormais autorisé dans l'Union, au nom de la « protection des enfants ». Une majorité d'eurodéputés a pourtant voté contre le texte, mais à cause d'une règle de procédure, il aurait fallu une majorité absolue pour le rejeter. Elle n'a pas été atteinte. La surveillance de masse est passée par la fenêtre.
+On 9 July 2026, the European Parliament let Chat Control through. In practice, the scanning of our private messages is now authorised in the Union, in the name of "child protection". A majority of MEPs voted against the text, but because of a procedural rule, an absolute majority was needed to reject it. That majority was not reached. Mass surveillance slipped through the window.
 
-Depuis mes débuts, je défends trois choses simples : le peuple, la liberté et la vie privée. Alors voici, comme la dernière fois, un guide pour agir. Pas une dissertation : des étapes concrètes, dans l'ordre, du plus simple au plus avancé. Chacune vous protège un peu plus. Vous n'êtes pas obligé de tout faire d'un coup. Commencez par l'étape 1 aujourd'hui, le reste suivra.
+Since the beginning, I have defended three simple things: the people, freedom, and privacy. So here, as last time, is a guide to act. Not a dissertation: concrete steps, in order, from the simplest to the most advanced. Each one protects you a little more. You do not have to do everything at once. Start with step 1 today, the rest will follow.
 
-Une précision importante avant de commencer, parce qu'on vous ment souvent là-dessus. La version la plus dangereuse de Chat Control repose sur le « scan côté client » : un logiciel qui lit vos messages directement sur votre téléphone, avant qu'ils ne soient chiffrés. Signal le résume bien : c'est « comme un malware sur votre appareil ». Conséquence : un VPN seul ou le simple chiffrement ne suffisent pas à s'en protéger. Ce qui protège vraiment, c'est de changer d'outils pour des logiciels libres qui refusent ce mouchard, et de reprendre le contrôle de son appareil. C'est tout l'objet de ce qui suit.
-
----
-
-## Étape 1 : Changez de messagerie (le geste le plus urgent)
-
-C'est le premier réflexe, celui qui vous protège le plus vite. Quittez WhatsApp, Messenger et Telegram.
-
-**Installez Signal.** C'est aussi simple que WhatsApp, mais chiffré de bout en bout par défaut, géré par une fondation à but non lucratif, et son équipe a promis de quitter l'Europe plutôt que d'installer un scan. Rendez-vous sur **signal.org**, installez l'application, confirmez votre numéro, puis dans Réglages > Confidentialité, créez un nom d'utilisateur pour masquer votre numéro.
-
-Si vous voulez aller plus loin, **SimpleX Chat** (sur simplex.chat) ne demande ni numéro, ni e-mail, ni aucun identifiant : personne, pas même les serveurs, ne sait qui parle à qui. C'est l'option la plus discrète aujourd'hui.
-
-Le plus important : faites installer Signal à vos contacts. Une messagerie chiffrée ne sert à rien si vous êtes seul dessus.
-
-## Étape 2 : Quittez Gmail
-
-Gmail lit vos e-mails et vit aux États-Unis, sous une juridiction de surveillance. Le quitter est un énorme gain pour très peu d'effort.
-
-**Créez un compte sur Proton Mail** (proton.me), basé en Suisse et chiffré. L'offre gratuite suffit pour commencer. À l'inscription, utilisez l'outil « Easy Switch » pour importer vos anciens messages et contacts, mettez une redirection depuis Gmail, et prévenez vos contacts de votre nouvelle adresse.
-
-Alternative tout aussi solide : **Tuta** (tuta.com), allemand, entièrement libre, qui chiffre en plus l'objet de vos e-mails.
-
-## Étape 3 : Changez de navigateur et de moteur de recherche
-
-Chrome est un mouchard publicitaire, et Google enregistre chacune de vos recherches. On remplace les deux.
-
-Pour un changement indolore, installez **Brave** (brave.com) : c'est comme Chrome, mais il bloque les pubs et les traqueurs par défaut, coupe les publicités YouTube, et intègre même un accès à Tor en un clic (menu > « Nouvelle fenêtre privée avec Tor »). Si vous préférez du 100 % libre, choisissez **Firefox** et ajoutez l'extension **uBlock Origin**.
-
-Enfin, changez votre moteur de recherche par défaut pour **DuckDuckGo** ou **Brave Search**, qui ne vous profilent pas.
-
-## Étape 4 : Prenez un VPN, acheté anonymement
-
-Un VPN ne vous protège pas du scan sur votre appareil, mais il masque votre adresse à votre fournisseur d'accès et vous rend l'accès aux sites qui exigent une pièce d'identité. C'est indispensable le jour où l'anonymat sera verrouillé.
-
-Je recommande **Mullvad** (mullvad.net) : pas d'e-mail, pas de nom, juste un numéro de compte, une politique sans journaux auditée, et un prix fixe. Concrètement :
-
-1. Allez sur mullvad.net (si le site est bloqué chez vous, ouvrez-le via le navigateur Tor ou son adresse .onion).
-2. Cliquez sur « Générer un numéro de compte ». **Sauvegardez ce numéro** dans votre gestionnaire de mots de passe et ne le partagez jamais : c'est votre seule clé.
-3. Payez. Si la carte bancaire passe, faites au plus simple. Si vous voulez l'anonymat total, payez en cryptomonnaie : cliquez sur « Créer une adresse de paiement à usage unique », et envoyez le montant depuis votre portefeuille. Monero est le plus confidentiel, Bitcoin le plus simple. Le tutoriel d'achat détaillé (Bitcoin, Monero via un swap) est dans le guide complet.
-4. Téléchargez l'application sur mullvad.net/download, entrez votre numéro, et connectez-vous à un serveur hors Union européenne. Activez le « kill switch ».
-
-## Étape 5 : Sécurisez vos comptes
-
-Un mot de passe unique et fort par service, c'est la base de toute la sécurité.
-
-**Installez Bitwarden** (bitwarden.com), gratuit et libre. Créez un mot de passe maître long (une phrase), installez l'extension et l'application, et laissez-le enregistrer puis remplacer vos anciens mots de passe.
-
-Ensuite, **activez la double authentification** sur vos comptes importants, avec une application comme **Aegis** ou **Ente Auth**, jamais par SMS (le SMS est vulnérable au piratage de carte SIM).
-
-## Étape 6 : Reprenez le contrôle de vos appareils
-
-C'est le point que beaucoup oublient : on chiffre ses messages mais on garde un système qui espionne.
-
-Sur ordinateur, **passez à Linux**. C'est gratuit, ça ne vous espionne pas, et c'est plus facile qu'on ne le croit. Pour choisir votre version, répondez au questionnaire **distrochooser.de/fr**, et testez-la sans rien installer sur **distrosea.com**. Linux Mint est le plus proche de Windows pour débuter.
-
-Sur téléphone, la solution la plus solide est **GrapheneOS** (grapheneos.org), un Android dégooglisé qui s'installe sur un Pixel en quelques clics depuis un ordinateur. C'est la vraie parade si un jour le système lui-même veut vous scanner.
-
-## Étape 7 : Pour aller plus loin (avancé)
-
-Si vous voulez pousser la souveraineté au bout : utilisez **Tor** pour dissocier votre activité de votre adresse IP, hébergez vos propres services avec **YunoHost** ou **Umbrel**, faites tourner une **intelligence artificielle en local** (avec LM Studio ou Jan) au lieu d'envoyer vos pensées à ChatGPT, et pour les plus exposés, apprenez les règles d'anonymat. Tout est détaillé, pas à pas, dans le guide complet.
+One important clarification before we start, because you are often lied to about this. The most dangerous version of Chat Control relies on "client-side scanning": software that reads your messages directly on your phone, before they are encrypted. Signal puts it well: it is "like malware on your device". Consequence: a VPN alone, or simple encryption, is not enough to protect yourself. What really protects you is switching to free/open-source software that refuses this snooper, and taking back control of your device. That is the whole point of what follows.
 
 ---
 
-## Pour finir
+## Step 1: Switch messenger (the most urgent move)
 
-Changer d'outils, ce n'est pas se cacher. C'est un acte citoyen, légal et pacifique : refuser une surveillance de masse illégitime. Chiffrer, c'est voter avec ses usages. S'auto-héberger, c'est désobéir. Reprendre ses outils, c'est devenir ingouvernable.
+This is the first reflex, the one that protects you fastest. Quit WhatsApp, Messenger and Telegram.
 
-Le combat est aussi politique : soutenez les organisations qui s'y opposent et écrivez à vos élus, c'est ce qui a failli faire tomber Chat Control. Mais il se gagne surtout dans nos choix de tous les jours.
+**Install Signal.** It is as simple as WhatsApp, but end-to-end encrypted by default, run by a non-profit foundation, and its team has pledged to leave Europe rather than install a scanner. Go to **signal.org**, install the app, confirm your number, then in Settings > Privacy, create a username to hide your number.
 
-**Le guide complet, avec chaque outil expliqué et installé pas à pas, du citoyen au lanceur d'alerte, est ici 👉 https://exitchatcontrol.org. Enregistrez-le, partagez-le, faites migrer vos proches.**
+If you want to go further, **SimpleX Chat** (at simplex.chat) asks for no phone number, no email, no identifier at all: no one, not even the servers, knows who is talking to whom. It is the most discreet option today.
 
-*Cet article sera mis à jour selon l'évolution de la situation. En cas de suppression de mon compte, vous le retrouverez sur mon site personnel.*
+The most important thing: get your contacts to install Signal too. An encrypted messenger is useless if you are the only one on it.
+
+## Step 2: Quit Gmail
+
+Gmail reads your emails and lives in the United States, under a surveillance jurisdiction. Quitting it is a huge gain for very little effort.
+
+**Create an account on Proton Mail** (proton.me), based in Switzerland and encrypted. The free tier is enough to start. When signing up, use the "Easy Switch" tool to import your old messages and contacts, set up forwarding from Gmail, and tell your contacts your new address.
+
+An equally solid alternative: **Tuta** (tuta.com), German, fully open-source, which also encrypts the subject of your emails.
+
+## Step 3: Switch browser and search engine
+
+Chrome is an advertising tracker, and Google records every search you make. We replace both.
+
+For a painless switch, install **Brave** (brave.com): it looks like Chrome, but it blocks ads and trackers by default, cuts YouTube ads, and even integrates one-click Tor access (menu > "New private window with Tor"). If you prefer 100% free software, choose **Firefox** and add the **uBlock Origin** extension.
+
+Finally, change your default search engine to **DuckDuckGo** or **Brave Search**, which do not profile you.
+
+## Step 4: Get a VPN, bought anonymously
+
+A VPN does not protect you from on-device scanning, but it hides your address from your ISP and gives you back access to sites that require ID. It is essential the day anonymity gets locked down.
+
+I recommend **Mullvad** (mullvad.net): no email, no name, just an account number, an audited no-logs policy, and a flat price. In practice:
+
+1. Go to mullvad.net (if the site is blocked where you are, open it through the Tor Browser or its .onion address).
+2. Click "Generate account number". **Save this number** in your password manager and never share it: it is your only key.
+3. Pay. If your bank card works, keep it simple. If you want full anonymity, pay in cryptocurrency: click "Create a one-time payment address", and send the amount from your wallet. Monero is the most private, Bitcoin the simplest. The detailed buying tutorial (Bitcoin, Monero via a swap) is in the complete guide.
+4. Download the app from mullvad.net/download, enter your number, and connect to a server outside the European Union. Enable the "kill switch".
+
+## Step 5: Secure your accounts
+
+One unique strong password per service is the foundation of all security.
+
+**Install Bitwarden** (bitwarden.com), free and open-source. Create a long master password (a passphrase), install the extension and the app, and let it save and then replace your old passwords.
+
+Then, **turn on two-factor authentication** on your important accounts, with an app like **Aegis** or **Ente Auth**, never via SMS (SMS is vulnerable to SIM-swap attacks).
+
+## Step 6: Take back control of your devices
+
+This is the step many people forget: we encrypt our messages but keep a system that spies on us.
+
+On desktop, **switch to Linux**. It is free, it does not spy on you, and it is easier than people think. To choose your version, answer the **distrochooser.de** quiz, and test it without installing anything at **distrosea.com**. Linux Mint is the closest to Windows for beginners.
+
+On phone, the most solid solution is **GrapheneOS** (grapheneos.org), a de-Googled Android that installs on a Pixel in a few clicks from a computer. It is the real counter if one day the system itself wants to scan you.
+
+## Step 7: Going further (advanced)
+
+If you want to push sovereignty to the end: use **Tor** to decouple your activity from your IP address, self-host your own services with **YunoHost** or **Umbrel**, run an **AI locally** (with LM Studio or Jan) instead of sending your thoughts to ChatGPT, and for the most exposed, learn the rules of anonymity. Everything is detailed, step by step, in the complete guide.
+
+---
+
+## To conclude
+
+Switching tools is not hiding. It is a civic, legal, peaceful act: refusing illegitimate mass surveillance. To encrypt is to vote with your usage. To self-host is to disobey. To reclaim your tools is to become ungovernable.
+
+The fight is also political: support the organisations that oppose Chat Control and write to your elected representatives — that is what nearly brought the text down. But it is mainly won in the choices we make every day.
+
+**The complete guide, with each tool explained and installed step by step, from citizen to whistleblower, is here 👉 https://exitchatcontrol.org. Bookmark it, share it, help your close ones migrate.**
+
+*This article will be updated as the situation evolves. If my account is deleted, you will find it again on my personal site.*

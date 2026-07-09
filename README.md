@@ -1,19 +1,29 @@
 # exitchatcontrol
 
-Guide bilingue (FR / EN) pour échapper à **Chat Control** et reprendre sa souveraineté numérique : messagerie chiffrée, e-mail, VPN, DNS, 2FA, Linux, GrapheneOS, auto-hébergement, et bien plus. Chaque outil est présenté avec « à quoi ça sert », « pour qui », et « comment l'installer ».
+A bilingual guide (English / French) to escape **Chat Control** and reclaim digital sovereignty: encrypted messaging, email, VPN, DNS, 2FA, Linux, GrapheneOS, self-hosting, and more. Each tool is presented with "what it's for", "why it matters", and "how to install it".
 
-## Contenu
+## Contents
 
-- **`index.html`** : le guide complet, un site web autonome (aucune dépendance, s'ouvre directement dans un navigateur).
-- **`images/`** : captures d'écran à insérer dans le guide.
-- **`article-presse.md`** : article de presse actionnable, prêt à publier sur un blog, une newsletter ou en Article sur X.
+- **`index.html`**: the complete guide, a self-contained website (no dependencies, opens directly in a browser).
+- **`images/`**: screenshots to be inserted into the guide.
+- **`article-presse.md`**: an actionable press article, ready to publish on a blog, a newsletter, or as an X Article.
 
-## Publication
+## A trilingual site
 
-Site statique : dépose le dossier sur un hébergeur statique (Netlify, Vercel, Cloudflare Pages) ou sers `index.html` avec Caddy sur un VPS.
+The static site supports three languages, switchable from the top bar:
 
-Domaine : https://exitchatcontrol.org
+- 🇬🇧 English (default fallback)
+- 🇫🇷 French
+- 🇳🇱 Dutch
 
-## Licence
+The visitor's browser language is detected on first load (English → English, French → French, Dutch → Dutch, anything else → English). The choice is remembered in `localStorage`.
 
-Voir le fichier `LICENSE`.
+## Publishing
+
+Static site: drop the folder on a static host (Netlify, Vercel, Cloudflare Pages) or serve `index.html` with Caddy on a VPS.
+
+Domain: https://exitchatcontrol.org
+
+## License
+
+See the `LICENSE` file.
